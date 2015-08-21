@@ -1,7 +1,8 @@
-## Put comments here that give an overall description of what your
-## functions do
+## The makeCacheMatrix holds the invertible matrix as input for the next function
+## cachesolve, which computes the input and returns the inverse of the input matrix,
+## provided the similar input/output is not in the cache.
 
-## Write a short comment describing this function
+## makeCacheMatrix holds the invertible matrix
 
 makeCacheMatrix <- function(x = matrix()) {
   
